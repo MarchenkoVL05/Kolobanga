@@ -168,14 +168,19 @@ a {
 }
 
 .main__right-blue {
-  width: 596px;
-  height: 850px;
+  height: 890px;
   background: #008dce;
   border-radius: 0px 0px 24px 0px;
   position: absolute;
   top: 83px;
   left: 70px;
   padding: 28px 30px 34px 72px;
+}
+
+@media (max-width: 1200px) {
+  .main__right-blue {
+    height: 840px;
+  }
 }
 
 .main__right-darkBlue-title {
@@ -233,7 +238,7 @@ a {
   content: '*Бесплатное обучение доступно только для учреждений образования, условия участия высылаются по запросу. Заполните и отправьте форму заявки в конце страницы.';
   width: 582px;
   left: -60px;
-  top: 100px;
+  top: 80px;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
