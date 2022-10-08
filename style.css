@@ -169,7 +169,7 @@ a {
 
 .main__right-blue {
   width: 596px;
-  height: 880px;
+  height: 850px;
   background: #008dce;
   border-radius: 0px 0px 24px 0px;
   position: absolute;
@@ -195,7 +195,7 @@ a {
 }
 
 .blue__list-item:not(:first-child) {
-  margin-top: 40px;
+  margin-top: 32px;
 }
 
 .boxes {
@@ -233,7 +233,7 @@ a {
   content: '*Бесплатное обучение доступно только для учреждений образования, условия участия высылаются по запросу. Заполните и отправьте форму заявки в конце страницы.';
   width: 582px;
   left: -60px;
-  top: 70px;
+  top: 100px;
   color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -893,6 +893,9 @@ form label span {
   .header {
     font-size: 65px;
     line-height: 84px;
+  }
+  .header__inner {
+    align-items: center;
   }
   .header span {
     font-size: 57px;
