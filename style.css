@@ -15,12 +15,13 @@ a {
 }
 
 .body {
-  background-image: url('./assets/patern_avs2.jpg');
+  background-image: url("./assets/patern_avs2.jpg");
 }
 
 .container {
   max-width: 1280px;
-  height: 6500px;
+  height: 100%;
+  padding-bottom: 20px;
   margin: 0 auto;
   background: linear-gradient(
     180deg,
@@ -60,7 +61,7 @@ a {
 }
 
 .logo__text {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 600;
   font-size: 12px;
   line-height: 15px;
@@ -71,7 +72,7 @@ a {
 
 .header {
   margin-top: 129px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 103px;
   line-height: 130px;
@@ -96,7 +97,7 @@ a {
 }
 
 .subheader {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
@@ -115,7 +116,7 @@ a {
 }
 
 .main__left-header {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 26px;
   text-transform: uppercase;
@@ -133,7 +134,7 @@ a {
 
 .blender-title {
   margin-top: 74px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 32px;
   text-transform: uppercase;
@@ -184,7 +185,7 @@ a {
 }
 
 .main__right-darkBlue-title {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 32px;
   color: #ffffff;
@@ -194,7 +195,7 @@ a {
 
 .blue__list-item {
   font-size: 23px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   color: #ffffff;
 }
@@ -220,7 +221,7 @@ a {
 .more {
   margin-top: 28px;
   font-size: 20px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   color: #ffffff;
   text-align: center;
@@ -235,17 +236,17 @@ a {
 
 .kolobanga-link::after {
   position: absolute;
-  content: '*Бесплатное обучение доступно только для учреждений образования, условия участия высылаются по запросу. Заполните и отправьте форму заявки в конце страницы.';
+  content: "*Бесплатное обучение доступно только для учреждений образования, условия участия высылаются по запросу. Заполните и отправьте форму заявки в конце страницы.";
   width: 582px;
   left: -60px;
   top: 80px;
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
 
 .kolobanga-link a {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 23px;
   color: #ffffff;
@@ -263,7 +264,7 @@ a {
 }
 
 .phrase {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 42px;
   color: #ffffff;
@@ -318,7 +319,7 @@ a {
 
 .never-stop {
   margin-top: 20px;
-  background-image: url('./assets/Group\ 39.png');
+  background-image: url("./assets/Group\ 39.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 412px;
@@ -336,7 +337,7 @@ a {
 }
 
 .never-stop__text {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 40px;
   color: #ffffff;
@@ -351,7 +352,7 @@ a {
 }
 
 .school-text {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 26px;
   line-height: 39px;
@@ -368,7 +369,7 @@ a {
 }
 
 .features__title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 33px;
   color: #ffffff;
   text-align: center;
@@ -376,7 +377,7 @@ a {
 
 .features__list {
   width: 970px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 400;
   font-size: 70px;
   text-align: center;
@@ -394,7 +395,7 @@ a {
 }
 
 .features__list-item::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -410,7 +411,7 @@ a {
 
 .levels-header {
   margin-top: 66px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 90px;
   text-transform: uppercase;
@@ -420,7 +421,7 @@ a {
 
 .levels {
   margin-top: 65px;
-  background-image: url('./assets/Group\ 40.png');
+  background-image: url("./assets/Group\ 40.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 493px;
@@ -438,7 +439,7 @@ a {
 }
 
 .levels__text {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 48px;
   text-align: center;
@@ -460,7 +461,7 @@ a {
   text-transform: uppercase;
   text-align: center;
   color: #ffffff;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 36px;
   margin-top: 75px;
@@ -482,14 +483,14 @@ a {
 .youtube__text a {
   margin-top: 10px;
   text-decoration: underline;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 20px;
   color: #ffffff;
 }
 
 .start {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 90px;
   text-align: center;
@@ -500,7 +501,7 @@ a {
 
 .condition {
   margin-top: 143px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #ffffff;
   text-align: center;
@@ -517,7 +518,7 @@ a {
 }
 
 .form__title {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 32px;
   line-height: 47px;
@@ -527,7 +528,7 @@ a {
 }
 
 .form__subtitle {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -567,7 +568,7 @@ a {
 }
 
 form label {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -605,7 +606,7 @@ form label span {
   height: 43px;
   background: #008ccd;
   border-radius: 25px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 600;
   font-size: 20px;
   text-transform: lowercase;
@@ -622,7 +623,7 @@ form label span {
 }
 
 .copyright {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 600;
   font-size: 20px;
   text-transform: lowercase;
@@ -656,9 +657,15 @@ form label span {
   transform: translateX(-50%);
 }
 
+@media (max-width: 992px) {
+  .info-container {
+    width: 100%;
+  }
+}
+
 .info-title {
   margin-top: 100px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 30px;
   color: white;
@@ -676,7 +683,7 @@ form label span {
 }
 
 .info-p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   color: white;
 }
@@ -688,13 +695,13 @@ form label span {
 }
 
 .info-list__item {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   color: white;
 }
 
 .info-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -1019,13 +1026,20 @@ form label span {
 }
 
 @media (max-width: 420px) {
-  .main__right-darkBlue,
+  .body {
+    overflow-x: hidden;
+  }
   .main__right-blue {
-    width: 320px;
+    padding: 28px 30px 34px 45px;
   }
 
   .main__right-blue {
-    padding: 28px 30px 34px 45px;
+    height: 770px;
+  }
+
+  .main__right {
+    position: relative;
+    left: -20px;
   }
 
   .kolobanga-link {
@@ -1036,12 +1050,8 @@ form label span {
     width: 170px;
   }
 
-  .main__right-blue {
-    height: 1015px;
-  }
-
   .phrase-wrapper {
-    margin: 140px auto 0;
+    margin: 0 auto;
   }
 
   .main__right-darkBlue-title {
@@ -1093,12 +1103,17 @@ form label span {
     width: 320px;
     margin: 0 auto;
   }
+
+  .features__list {
+    margin: -15px 0 auto;
+  }
 }
 
 /* INFO PAGE */
 @media (max-width: 600px) {
   .info-container {
     padding: 0 20px;
+    width: 100%;
   }
   .info-logo {
     height: 130px;
