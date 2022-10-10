@@ -638,7 +638,7 @@ form label span {
 }
 
 .info-container {
-  max-width: 1200px;
+  width: 1080px;
   margin: 0 auto;
   padding: 0 50px;
   background: linear-gradient(
@@ -1110,6 +1110,11 @@ form label span {
 }
 
 /* INFO PAGE */
+@media (max-width: 768px) {
+  .info-logo {
+    height: 150px;
+  }
+}
 @media (max-width: 600px) {
   .info-container {
     padding: 0 20px;
