@@ -194,12 +194,7 @@
           бесплатного участия высылаются по индивидуальному запросу.
         </div>
 
-        <form
-          class="form"
-          action="https://formspree.io/f/mdojdndn"
-          method="POST"
-          id="anchor"
-        >
+        <form class="form" action="sendForm.php" method="POST" id="anchor">
           <div class="form__title">оставить заявку</div>
           <div class="form__subtitle">на условия бесплатного обучения</div>
           <div class="inputs__wrapper">
@@ -207,18 +202,18 @@
             <div class="inputs__left">
               <div class="my-input">
                 <label for="name">Ваше имя<span>*</span></label>
-                <input id="name" name="Имя" type="text" required="required" />
+                <input id="name" name="name" type="text" required="required" />
               </div>
               <div class="my-input">
                 <label for="city">Город<span>*</span></label>
-                <input id="city" name="Город" type="text" required="required" />
+                <input id="city" name="city" type="text" required="required" />
               </div>
             </div>
             <div class="inputs__right">
               <div class="my-input__right-inner">
                 <div class="my-input">
                   <label for="phone">Ваш телефон<span>*</span></label>
-                  <input id="phone" name="Телефон" type="text" />
+                  <input id="phone" name="phone" type="text" />
                 </div>
                 <div class="my-input">
                   <label for="email">Ваш E-mail<span>*</span></label>
@@ -234,7 +229,7 @@
                 <label for="place">Наименование учреждения<span>*</span></label>
                 <input
                   id="place"
-                  name="Наименование учреждения"
+                  name="place"
                   type="text"
                   required="required"
                 />
@@ -256,4 +251,5 @@
       </div>
     </div>
   </body>
+  <script src="./script.js"></script>
 </html>
